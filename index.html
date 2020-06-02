@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design for Bootstrap</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Start your project here-->
+
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg  navbar-light light-green lighten-5 ">
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="#"> <span class="fas fa-leaf green-text mr-1"></span>
+      <span class="font-weight-bold light-green-text">Eco</span>
+      <span class="font-weight-bold lime-text">Farm</span>
+    </a>
+
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+      aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="basicExampleNav">
+
+
+      <ul class="navbar-nav ml-auto text-center">
+        <li class="nav-item brown lighten-1 px-3 rounded">
+          <a class="nav-link white-text brown lighten-1 font-weight-bolder" href="#">Inicio
+          </a>
+        </li>
+        <li class="nav-item ml-lg-4">
+          <a class="nav-link brown-text" href="#">Cosmetica Eco</a>
+        </li>
+        <li class="nav-item ml-lg-4">
+          <a class="nav-link brown-text" href="#">Huerto ecologico</a>
+        </li>
+        <li class="nav-item ml-lg-4">
+          <a class="nav-link brown-text" href="#">Eco Regalos</a>
+        </li>
+        <li class="nav-item ml-lg-4">
+          <a class="nav-link brown-text" href="#">Eco Hogar</a>
+        </li>
+        <li class="nav-item mx-lg-4">
+          <a class="nav-link brown-text" href="#">Blog</a>
+        </li>
+    </div>
+    <!-- Collapsible content -->
+
+  </nav>
+  <!--/.Navbar-->
+
+
+  <!--Section: Content-->
+
+  <div class="container-fluid green accent-1 py-3 mb-4">
+    <div class="row">
+      <div class="col-7">
+        <input type="text" class="form-control mt-3" value="Busca un producto...">
+      </div>
+      <div class="col-5 d-flex justify-content-end">
+        <a href="#"><span class="fas fa-cart-plus fa-2x green-text p-3 bg-white rounded-circle"></span></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid py-4 border">
+    <div class="row">
+      <div class="col-6 d-flex justify-content-center align-content-center">
+        <div class="view rounded-circle img-main">
+          <img class="img-fluid" src="/img/huerto.jpg" alt="Huerto">
+        </div>
+      </div>
+      <div class="col-6 d-flex justify-content-center pb-3">
+        <!--Carousel Wrapper-->
+        <div id="carousel-example-2" class="carousel slide carousel-fade" data-ride="carousel">
+          <!--Indicators-->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-2" data-slide-to="1"></li>
+            <li data-target="#carousel-example-2" data-slide-to="2"></li>
+          </ol>
+          <!--/.Indicators-->
+          <!--Slides-->
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <div class="view img-carousel">
+                <img class="d-block w-100 img-fluid" src="/img/semillas-tomate.jpg"
+                  alt="First slide">
+              </div>
+              <div class="carousel-caption">
+                <h3 class="h3-responsive">Semillas</h3>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <!--Mask color-->
+              <div class="view img-carousel">
+                <img class="d-block w-100 img-fluid" src="/img/semillas-zanahoria.jpg"
+                  alt="Second slide">
+              </div>
+              <div class="carousel-caption">
+                <h3 class="h3-responsive">Semillas</h3>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <!--Mask color-->
+              <div class="view img-carousel">
+                <img class="d-block w-100 img-fluid" src="/img/semillas-lechuga.jpg"
+                  alt="Third slide">
+              </div>
+              <div class="carousel-caption">
+                <h3 class="h3-responsive">Semillas</h3>
+              </div>
+            </div>
+          </div>
+          <!--/.Slides-->
+          <!--Controls-->
+          <a class="carousel-control-prev text-dark" href="#carousel-example-2" role="button" data-slide="prev">
+            <span class="fas fa-arrow-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next text-dark" href="#carousel-example-2" role="button" data-slide="next">
+            <span class="fas fa-arrow-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+          <!--/.Controls-->
+        </div>
+        <!--/.Carousel Wrapper-->
+      </div>
+    </div>
+    <div class="row my-3">
+      <div class="col-12 green accent-1 text-center pt-2">
+        <p class="lead mx-4">Todo lo que necesario para crear tu propio huerto: Kits de
+          cultivo, semillas ecológicas, control de plagas... ¡Sigue nuestros
+          consejos en el blog!
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-3">
+        <div class="card">
+          <div class="card-body text-center">
+            <h5 class="card-title grey-text"> <span class="fas fa-shipping-fast mr-1"></span>Envio Gratis</h5>
+            <p class=" text-min grey-text">A partir de 60$</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card">
+          <div class="card-body text-center">
+            <h5 class="card-title grey-text"> <span class="fas fa-dollar-sign mr-1"></span>Pago Seguro</h5>
+            <p class=" text-min grey-text">Compra con la mayor seguridad</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card">
+          <div class="card-body text-center">
+            <h5 class="card-title grey-text"> <span class="fas fa-star mr-1"></span>Precios minimos</h5>
+            <p class=" text-min grey-text">Descuentos increibles</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-3">
+        <div class="card">
+          <div class="card-body text-center green text-white">
+            <h5 class="card-title"> <span class="fas fa-blog mr-1"></span>Nuestro blog</h5>
+            <p class=" text-min">Lee increibles consejos</p>
+          </div>
+    </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- End your project here-->
+
+  
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript">
+
+  </script>
+
+</body>
+
+</html>
